@@ -13,20 +13,20 @@
 </head>
 
 <body>
-<div class="banner">
-  <img src="assets/Sun-Yat Sen 1.jpg" alt="banner">
-  
-  <div class="top-left" style="width: 100%; text-align: center; left: 0; right: 0; top: 5%;">
-    <!-- 中文在上 -->
-    <span style="font-size: 30px; color: white; text-shadow: 0 0 12px rgba(0,0,0,0.7); display: block; margin-bottom: 10px;">
-      第七届东南代数几何研讨会
-    </span>
-    <!-- 英文在下，一行不换行 -->
-    <span style="font-size: 36px; color: white; text-shadow: 0 0 12px rgba(0,0,0,0.7); white-space: nowrap;">
-      China Southeastern Algebraic Geometry Symposium VII
-    </span>
+<!-- 正确：标题在最上方 → 图片在下方 → 无重叠、无嵌套错误 -->
+<div style="text-align: center; margin: 0 0 20px 0;">
+  <div style="font-size: 26px; font-weight: bold; margin-bottom: 8px;">
+    China Southeastern Algebraic Geometry Symposium VII
+  </div>
+  <div style="font-size: 22px; font-weight: bold;">
+    第七届东南代数几何研讨会
   </div>
 </div>
+
+<div class="banner">
+  <img src="assets/Sun-Yat Sen 1.jpg" alt="Banner" style="width: 100%;">
+</div>
+
 
 
 
